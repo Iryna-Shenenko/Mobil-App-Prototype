@@ -7,16 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+    /> -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -48,77 +48,92 @@
     <!-- HERO -->
     <main>
       <!-- Hero Header -->
-      <section class="hero-header">
-        <div>
-          <h1>Introducing Mobileapp</h1>
-          <p>Download our mobile app today!</p>
-          <ul>
-            <li>
-              <p>Real-time updates and notifications for timely information</p>
+      <section class="page-hero">
+        <div class="hero-container container">
+          <h1 class="hero-title">Introducing Mobileapp</h1>
+          <p class="hero-list-text">Download our mobile app today!</p>
+          <ul class="hero-menu">
+            <li class="hero-item">
+              <p class="list-text">
+                Real-time updates and notifications for timely information
+              </p>
             </li>
-            <li>
-              <p>Robust analytics and reporting for data-driven insights</p>
+            <li class="hero-item">
+              <p class="list-text">
+                Robust analytics and reporting for data-driven insights
+              </p>
             </li>
-            <li>
-              <p>Offline capabilities for uninterrupted use</p>
+            <li class="hero-item">
+              <p class="list-text">
+                Offline capabilities for uninterrupted use
+              </p>
             </li>
           </ul>
+          <img
+            class=""
+            src="./images/iPhone X .jpg"
+            alt="Foto mobil"
+            width="895"
+            height="553"
+          />
           <button class="download" type="button">Download</button>
         </div>
       </section>
       <!-- Features -->
-      <section class="features">
-        <div>
-          <h2>KEY FEATURES</h2>
-          <p>
+      <section class="page-features">
+        <div class="features-conteiner">
+          <h2 class="features-title">KEY FEATURES</h2>
+          <p class="features-text">
             Get the best mobile experience with our Mobileapp. With a
             user-friendly interface, personalized recommendations, secure
             transactions, and real-time updates, our app offers everything you
             need to stay connected and productive
           </p>
-          <ul>
-            <li>
-              <h3>User-Friendly Interface:</h3>
-              <p>
-                Intuitive and easy-to-navigate interface designed to provide a
-                seamless mobile experience for users.
-              </p>
+          <ul class="features-menu">
+            <li class="features-item">
+              <div class="information-container">
+                <h3 class="information-title">User-Friendly Interface:</h3>
+                <p class="information-text">
+                  Intuitive and easy-to-navigate interface designed to provide a
+                  seamless mobile experience for users.
+                </p>
+              </div>
             </li>
-            <li>
-              <h3>Personalized Recommendations:</h3>
-              <p>
+            <li class="features-item">
+              <h3 class="information-title">Personalized Recommendations:</h3>
+              <p class="information-text">
                 The app provides personalized recommendations based on user
                 preferences and behavior, allowing for more relevant content and
                 a more engaging experience.
               </p>
             </li>
-            <li>
-              <h3>Real-Time Updates:</h3>
-              <p>
+            <li class="features-item">
+              <h3 class="information-title">Real-Time Updates:</h3>
+              <p class="information-text">
                 Users receive real-time updates and notifications to stay
                 informed on important news and events, and to stay up-to-date
                 with changes to the app.
               </p>
             </li>
-            <li>
-              <h3>Integration with Other Apps:</h3>
-              <p>
+            <li class="features-item">
+              <h3 class="information-title">Integration with Other Apps:</h3>
+              <p class="information-text">
                 The app integrates with other popular apps, making it easy for
                 users to connect with their social media accounts, or to easily
                 make in-app purchases using their preferred payment method.
               </p>
             </li>
-            <li>
-              <h3>Multi-Language Support:</h3>
-              <p>
+            <li class="features-item">
+              <h3 class="information-title">Multi-Language Support:</h3>
+              <p class="information-text">
                 The app is designed to be accessible to users all around the
                 world, with support for multiple languages, making it easier for
                 people to use the app in their native language.
               </p>
             </li>
-            <li>
-              <h3>Offline Capabilities:</h3>
-              <p>
+            <li class="features-item">
+              <h3 class="information-title">Offline Capabilities:</h3>
+              <p class="information-text">
                 The app offers offline capabilities, allowing users to access
                 certain features and content even when they are not connected to
                 the internet.
@@ -145,39 +160,57 @@
         </div>
       </section>
       <!-- Team -->
-      <section>
-        <div>
-          <h2>OUR TEAM</h2>
-          <p>
+      <section class="page-team">
+        <div class="team-conteiner">
+          <h2 class="team-titel">OUR TEAM</h2>
+          <p class="team-text">
             Our team is made up of talented and passionate individuals who are
             committed to providing the best experience for our users. Each
             member brings a unique set of skills and expertise to the table,
             allowing us to work collaboratively and effectively to achieve our
             goals.
           </p>
-          <ul>
-            <li>
-              <img src="./images/bytesize_photo.jpg" alt="David Patel" />
-              <h3>David Patel</h3>
-              <p>Managing Direcor</p>
+          <ul class="team-menu">
+            <div class="foto-conteiner"> 
+            <li class="team-item">
+              <img
+                class="page-foto"
+                src="./images/bytesize_photo .jpg"
+                alt="David Patel"
+              />
+              <h3 class="foto-titel">David Patel</h3>
+              <p class="foto-text">Managing Direcor</p>
+              </div>
             </li>
 
-            <li>
-              <img src="./images/bytesize_photo (1).jpg" alt="Rachel Kim" />
-              <h3>Rachel Kim</h3>
-              <p>Lead Designer</p>
+            <li class="team-item">
+              <img
+                class="page-foto"
+                src="./images/bytesize_photo (1).jpg"
+                alt="Rachel Kim"
+              />
+              <h3 class="foto-titel">Rachel Kim</h3>
+              <p class="foto-text">Lead Designer</p>
             </li>
 
-            <li>
-              <img src="./images/bytesize_photo (2).jpg" alt="Samantha Chen" />
-              <h3>Samantha Chen</h3>
-              <p>Lead Designer</p>
+            <li class="team-item">
+              <img
+                class="page-foto"
+                src="./images/bytesize_photo (2).jpg"
+                alt="Samantha Chen"
+              />
+              <h3 class="foto-titel">Samantha Chen</h3>
+              <p class="foto-text">Lead Designer</p>
             </li>
 
-            <li>
-              <img src="./images/bytesize_photo (3).jpg" alt="Andrew Nguyen" />
-              <h3>Andrew Nguyen</h3>
-              <p>Sr. UI Designer</p>
+            <li class="team-item">
+              <img
+                class="page-foto"
+                src="./images/bytesize_photo (3).jpg"
+                alt="Andrew Nguyen"
+              />
+              <h3 class="foto-titel">Andrew Nguyen</h3>
+              <p class="foto-text">Sr. UI Designer</p>
             </li>
           </ul>
         </div>

@@ -47,15 +47,15 @@ ol {
 }
 
 .container {
-    width: 1158px;
+    width: 1280px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .visually-hidden {
@@ -81,3 +81,213 @@ ol {
 }
 
 /* ====== HEADER======== */
+.page-header {
+    width: 1280px;
+    height: 72px;
+    background: #06071b;
+    padding: 19px 0;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(35px);
+    background: linear-gradient(99deg, rgba(0, 197, 235, 0.3) 0%, rgba(181, 68, 254, 0.3) 100%);
+
+}
+
+.page-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.page-logo {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #fff;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-right: 652px;
+}
+
+.navigation-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.navigation-item {
+    position: relative;
+    color: spacing: 0.02em;
+    color: #fff;
+    ;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation-link {
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+}
+
+/* ======= Hero Header======= */
+.page-hero {
+    width: 1280px;
+    background: #06071b;
+
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+
+}
+
+.hero-list-text {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.list-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* ===== Feature ====== */
+.page-features {}
+
+.features-conteiner {
+    width: 973px;
+    height: 838px;
+    margin-left: 157px;
+    margin-right: 150px;
+    margin-top: 66px;
+    background-image: url(../images/Frame\ 74-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000;
+    margin-top: 80px;
+
+}
+
+.features-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 54px;
+    margin-top: 117px;
+
+
+}
+
+.features-item {}
+
+.information-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000;
+}
+
+.information-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    position: relative;
+}
+
+/* TEAM */
+.page-team {}
+
+.team-conteiner {
+    width: 1236px;
+    height: 601px;
+}
+
+.team-titel {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    padding-bottom: 80px;
+}
+
+.team-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000;
+    padding-left: 196px;
+    padding-right: 196px;
+    padding-bottom: 56px;
+    font-family: "Inter", sans-serif;
+}
+
+.team-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.foto-conteiner {
+    background: #2b319b,
+}
+
+.team-item {
+    display: block;
+    width: 288px;
+    height: 364px;
+    border-radius: 15px;
+    background-color: #383c86;
+    backdrop-filter: blur(35px);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 14px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.page-foto {
+    border-radius: 10px;
+    width: 264px;
+    height: 260px;
+    background: url("path_to_image");
+}
+
+.foto-titel {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.foto-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71429;
+    text-align: center;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
